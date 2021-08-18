@@ -26,7 +26,7 @@ pipeline {
 		steps{
 			echo 'Project performance testing stage'
 			bat label: 'Project packaging', script: '''cd C:/Users/Kumar Mapanip/Downloads/apache-jmeter-5.4.1/bin
-								   jmeter -jjmeter.save.saveservice.output_format=xml -n -t "C:\Users\Kumar Mapanip\Downloads\apache-jmeter-5.4.1\bin\customerDemoFinal.jmx" -l "C:\Users\Kumar Mapanip\Downloads\apache-jmeter-5.4.1\bin"\report2.jtl'''
+								   jmeter -jjmeter.save.saveservice.output_format=xml -n -t "C:/Users/Kumar Mapanip/Downloads/apache-jmeter-5.4.1/bin/customerDemoFinal.jmx" -l "C:/Users/Kumar Mapanip/Downloads/apache-jmeter-5.4.1/bin"/report2.jtl'''
 		}
 	} 	
 	    
